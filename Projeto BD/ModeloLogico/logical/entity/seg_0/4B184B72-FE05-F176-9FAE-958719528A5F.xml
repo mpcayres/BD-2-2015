@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4B184B72-FE05-F176-9FAE-958719528A5F" name="Série">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 13:49:36 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Código" id="5E5A38B6-CA3A-1758-1BFC-D1B555F2CA39">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 14:16:56 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nomeação" id="94E21AD7-4C25-CE25-461E-0DD8126E1CD3">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 14:17:03 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Regime" id="0DDB8FB6-D6F3-F809-CD59-F3159689B888">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 14:17:22 UTC</createdTime>
+<comment>Regular ou supletivo</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D5FB7248-A68A-8416-9E9F-507323AA0B0E" name="Série PK">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 14:17:03 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5E5A38B6-CA3A-1758-1BFC-D1B555F2CA39</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

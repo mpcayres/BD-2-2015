@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0EA952C2-92D9-EC34-9684-B9BB47751F13" name="tb_aluno_historico">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:54:57 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tb_aluno_matricula" id="A3D6EE75-361D-4D68-1D5C-BBE4AE21264B">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:55:32 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2D08D18-B4E8-506C-709B-4A71B15DD501" referredColumn="7392A646-D869-FC40-38C8-9CE9600A55B9"/>
+</associations>
+</Column>
+<Column name="tb_historico_ano" id="2625949F-AD73-673A-3218-8DA6A158DC4A">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:55:43 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9B00E53-AC7D-FB75-A4BD-F95E82621D32" referredColumn="9B8F3E49-E594-093B-6244-46DDDB48A5A8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86D28373-B424-5CC1-25C8-31441F66BA93" name="tb_aluno_historico_PK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:59:13 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3D6EE75-361D-4D68-1D5C-BBE4AE21264B"/>
+<colUsage columnID="2625949F-AD73-673A-3218-8DA6A158DC4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB6C3A43-C2D3-0769-0314-FE2B43778334" name="tb_aluno_historico_tb_aluno_FK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:55:32 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3D6EE75-361D-4D68-1D5C-BBE4AE21264B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B41B4595-1E58-0866-E629-EE25CDBC1D6E" name="tb_aluno_historico_tb_historico_FK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:55:43 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2625949F-AD73-673A-3218-8DA6A158DC4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

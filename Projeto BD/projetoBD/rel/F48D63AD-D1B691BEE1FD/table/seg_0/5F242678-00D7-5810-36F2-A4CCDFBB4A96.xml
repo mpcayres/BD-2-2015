@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F242678-00D7-5810-36F2-A4CCDFBB4A96" name="tb_aluno_turma">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:39:55 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tb_aluno_matricula" id="433BCEB8-E81F-030C-0D4B-A12FA30A5625">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:40:14 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57E89770-3AC9-63D6-5D03-3BF2D6BC5633" referredColumn="7392A646-D869-FC40-38C8-9CE9600A55B9"/>
+</associations>
+</Column>
+<Column name="tb_turma_letra" id="DC90416D-AB78-1595-7832-828EB7E262B9">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:41:14 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DED1E20-BCA7-DB80-2C73-644C8D401695" referredColumn="1ADF31D9-2B67-8962-4F84-67EA87A5C9F4"/>
+</associations>
+</Column>
+<Column name="tb_turma_tb_serie_ID" id="6128BE44-0FF2-87B2-1F51-09663A7A418E">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:43:07 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DED1E20-BCA7-DB80-2C73-644C8D401695" referredColumn="ACA81FC9-4FD7-0102-888E-8E59401DF6C8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E7EA259-8164-824D-0C2E-480A11BB99CF" name="tb_aluno_turma_tb_aluno_FK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:40:14 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="433BCEB8-E81F-030C-0D4B-A12FA30A5625"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AB626C4-3880-387B-1063-68959B18F48D" name="tb_aluno_turma_tb_turma_FK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:41:14 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC90416D-AB78-1595-7832-828EB7E262B9"/>
+<colUsage columnID="6128BE44-0FF2-87B2-1F51-09663A7A418E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

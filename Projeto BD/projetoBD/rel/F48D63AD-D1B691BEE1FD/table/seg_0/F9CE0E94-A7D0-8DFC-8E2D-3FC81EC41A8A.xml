@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9CE0E94-A7D0-8DFC-8E2D-3FC81EC41A8A" name="tb_leciona">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:51:52 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tb_cargo_ID" id="305F5669-1B96-BB49-EB2B-D80A6C36F3AA">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:52:09 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE505A35-C57F-C919-75A5-ADCF1B4F3065" referredColumn="2388BA50-8EFF-2788-F84D-B6656E29F519"/>
+</associations>
+</Column>
+<Column name="tb_materia_ID" id="42224955-BD3B-3F9F-8A92-EC2FD0EFA8C2">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:52:21 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69D6C88F-D3F6-563C-08E5-851F746AC9A9" referredColumn="075A2963-96FA-E0AF-83B1-F5B047654F8C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BAAD79EC-5AD0-AF71-54A9-08CAB14C709D" name="tb_leciona_tb_cargo_FK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:52:09 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="305F5669-1B96-BB49-EB2B-D80A6C36F3AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7033ACA6-EE86-4A7F-F8D7-D77FCD093B9B" name="tb_leciona_tb_materia_FK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:52:21 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42224955-BD3B-3F9F-8A92-EC2FD0EFA8C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

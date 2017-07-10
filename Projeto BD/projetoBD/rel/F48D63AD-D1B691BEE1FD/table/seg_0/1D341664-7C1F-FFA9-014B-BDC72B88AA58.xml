@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D341664-7C1F-FFA9-014B-BDC72B88AA58" name="tb_funcionario_escola">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:54:46 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tb_escola_ID" id="91D172A2-E32C-A0E6-9546-16C47C57016D">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:55:04 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="922767D8-EB02-0B03-F661-D5F5B7D95E3E" referredColumn="3637C759-2C98-8FC8-76CA-6C922757A606"/>
+</associations>
+</Column>
+<Column name="tb_funcionario_cpf" id="E3208D62-2DB7-8749-1087-07F759D6FD1D">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:55:21 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F03EE7C9-0F19-97FD-67B0-7BF8B725673D" referredColumn="8EA3A5F8-C4AE-E823-14B6-321778B4C069"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8B420D9-6BFD-7BD8-F504-A18184BC0D75" name="tb_funcionario_escola_tb_escola_FK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:55:03 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91D172A2-E32C-A0E6-9546-16C47C57016D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="196ED013-AC70-1CF4-854D-0900278146F9" name="tb_funcionario_escola_tb_funcionario_FK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:55:21 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3208D62-2DB7-8749-1087-07F759D6FD1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

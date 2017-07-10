@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6430079-CEDC-C14F-902B-F02CA93FC78B" name="tb_responsavel_aluno">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-14 00:03:06 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<ordsAlias>table_25</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tb_aluno_matricula" id="C4D38421-3C2A-C9D8-1180-DEB1C57111FE">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-14 00:03:30 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8E86FD5-45BE-02ED-F4D4-DA73DD34E269" referredColumn="7392A646-D869-FC40-38C8-9CE9600A55B9"/>
+</associations>
+</Column>
+<Column name="tb_responsavel_cpf" id="8735FA39-DCF3-FD0E-05DD-8A214A4A3F5A">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-14 00:03:43 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="767E7E17-CEAF-FF48-C611-819430A15446" referredColumn="539F3B10-1DD5-6AD9-62ED-7326876DD286"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2517D41D-8883-4D4F-9FBE-9EF6BDBF381C" name="tb_responsavel_aluno_tb_aluno_FK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-14 00:03:30 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4D38421-3C2A-C9D8-1180-DEB1C57111FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8FFE94CD-2741-3521-492A-C64C15028048" name="tb_responsavel_aluno_tb_responsavel_FK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-14 00:03:43 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8735FA39-DCF3-FD0E-05DD-8A214A4A3F5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD9E503C-8557-6B96-7B83-036FCB0C2A6D" name="tb_historico">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:53:30 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ano" id="9B8F3E49-E594-093B-6244-46DDDB48A5A8">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:54:47 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota" id="928B86D3-63A6-62B5-2067-AB02ADE953E0">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:54:47 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="faltas" id="70864B52-ED09-9CE6-71FC-4F18E5E9708D">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:54:47 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aprovacao" id="84EBE2C2-BF59-727C-592D-3C4718A552DB">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:54:47 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tb_aluno_matricula" id="9B2B0B47-0264-961E-F227-8F2C6EF4876C">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 23:46:51 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDBE210A-0F99-90DB-3CA8-9A2871DC9A9F" referredColumn="7392A646-D869-FC40-38C8-9CE9600A55B9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E535BDA9-74CB-8117-4179-9201D25A8673" name="tb_historico_PK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:54:47 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B8F3E49-E594-093B-6244-46DDDB48A5A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="138C6B90-CC47-C5DE-720F-75E608EA54F9" name="tb_historico_tb_aluno_FK">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 23:46:51 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B2B0B47-0264-961E-F227-8F2C6EF4876C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

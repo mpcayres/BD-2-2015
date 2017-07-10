@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="94ADE909-9F8D-8E88-1CC2-248F85FB666F" name="Aluno" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E8AF88FC-8E04-FE61-F374-EBB46F545062" name="Ano Letivo" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E0688BA7-A060-FDA0-1C42-58062F142593" name="Coordenação de Área" seqName="seg_0"/>
+   <object objectType="Entity" objectID="80D158F9-A83C-AC26-6BFC-3D0F6C3FC6AE" name="Emprego" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E6B02389-10D3-3918-CD0D-8061E7789DBE" name="Escola" seqName="seg_0"/>
+   <object objectType="Entity" objectID="79E8916C-E5DE-7FB1-A39D-E001FAB01712" name="Formação" seqName="seg_0"/>
+   <object objectType="Entity" objectID="DF6B7DB1-ED17-1534-7560-3EA444180C34" name="Funcionário" seqName="seg_0"/>
+   <object objectType="Entity" objectID="4C903336-72AA-2EA0-03B0-D6B94C7653D5" name="Histórico" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D4885F48-2AD2-2C65-2BB4-7B274EB02CA5" name="Matérias" seqName="seg_0"/>
+   <object objectType="Entity" objectID="994FFFBE-80B4-7757-EA6A-30274A79534F" name="Nível de Ensino" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D6D1189A-4F05-754A-37C8-38D2B833F388" name="Responsável" seqName="seg_0"/>
+   <object objectType="Entity" objectID="4B184B72-FE05-F176-9FAE-958719528A5F" name="Série" seqName="seg_0"/>
+   <object objectType="Entity" objectID="8EE14E8F-9B6C-B5E1-18F9-B439550F182A" name="Tipo Aluno" seqName="seg_0"/>
+   <object objectType="Entity" objectID="4243C551-77D1-9723-D2B4-506E839B6745" name="Turma" seqName="seg_0"/>
+   <object objectType="Entity" objectID="CE44ACEE-B4E9-4C5E-550D-55AE5EB5663B" name="Vínculo Empregatício" seqName="seg_0"/>
+   <object objectType="Relation" objectID="AF28663A-8778-88AE-4575-4EDF192E2068" name="Associada a" seqName="seg_0"/>
+   <object objectType="Relation" objectID="6813770D-ED16-4347-C1B9-D28538AF80D6" name="Associado ao" seqName="seg_0"/>
+   <object objectType="Relation" objectID="3C4D21FF-6A2F-7873-EF16-8B81C9DF6BCF" name="Coordena" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B58E4226-6D88-F14B-B8E4-1CF6DCEE4521" name="Especifica condições de" seqName="seg_0"/>
+   <object objectType="Relation" objectID="99E591D4-791D-5D59-C313-D0EE5A72E78C" name="Estuda em" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C9FFA367-FDDC-77AD-3D3C-3412441ECA02" name="Inclui" seqName="seg_0"/>
+   <object objectType="Relation" objectID="88C9A6B6-E9D9-3FAE-4ACF-D94B84EEB725" name="Integrada por" seqName="seg_0"/>
+   <object objectType="Relation" objectID="F232EDB3-E342-B299-F430-985A1A6646FA" name="Leciona" seqName="seg_0"/>
+   <object objectType="Relation" objectID="8FA3BA16-D9ED-38CA-68C7-302EF9D377AE" name="Ligado ao" seqName="seg_0"/>
+   <object objectType="Relation" objectID="E01E7355-EDB0-CFD2-CD3C-361550AF8CC4" name="Pertence a" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C17EE9A5-2F14-DE84-7623-FBFA0B0E581E" name="Pertencente a" seqName="seg_0"/>
+   <object objectType="Relation" objectID="F5A3FA70-AD30-AB23-F337-1DC6A5DE1A88" name="Possui um" seqName="seg_0"/>
+   <object objectType="Relation" objectID="DB454240-599D-61AE-18F2-EE15A3CEAF57" name="Possui uma" seqName="seg_0"/>
+   <object objectType="Relation" objectID="35081DB3-DD69-24AC-5AC1-338EC4218739" name="Recebe por" seqName="seg_0"/>
+   <object objectType="Relation" objectID="7EA993D1-83C0-7321-1772-6650A21FF0AD" name="Relativa a" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B9787A47-EF4F-B34B-C419-50562A66A3DA" name="Segue" seqName="seg_0"/>
+   <object objectType="Relation" objectID="81275863-5447-175B-54D1-0AC6FC1AFA57" name="Trabalha em" seqName="seg_0"/>
+   <object objectType="Relation" objectID="2B008671-999A-0F1F-1417-50B3FEB8AEE4" name="Tutorado por" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

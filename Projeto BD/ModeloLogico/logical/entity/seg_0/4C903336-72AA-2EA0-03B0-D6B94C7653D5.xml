@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4C903336-72AA-2EA0-03B0-D6B94C7653D5" name="Histórico">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 13:45:14 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="80A6A605-8EDF-A908-5CFE-680371A528F4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Ano" id="FDD43F79-313F-0923-897C-9C8F37AF2C8D">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 13:45:39 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="80A6A605-8EDF-A908-5CFE-680371A528F4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nota" id="7B8E52BC-585D-579F-5EBD-D5CAC6EC01E4">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 13:45:41 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="80A6A605-8EDF-A908-5CFE-680371A528F4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Falta" id="18599E01-6A9D-DA9D-E488-F14465E9F0BE">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 13:45:42 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="80A6A605-8EDF-A908-5CFE-680371A528F4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Aprovação" id="E23531F0-D19D-8478-E27D-6DBFFD391B6A">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 13:45:44 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="80A6A605-8EDF-A908-5CFE-680371A528F4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Matrícula" id="4EC95350-F7A8-7BCA-2C13-615C54171513">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 14:28:01 UTC</createdTime>
+<generatorID>6813770D-ED16-4347-C1B9-D28538AF80D6</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="80A6A605-8EDF-A908-5CFE-680371A528F4" value="true"/>
+</engineerTo>
+<referedAttribute>66B4E29E-FFB0-1D71-71EC-34DF6547219B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E05B0512-15C5-90F0-BB7D-DE04D9C74E21" name="Histórico PK">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 13:46:00 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="80A6A605-8EDF-A908-5CFE-680371A528F4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FDD43F79-313F-0923-897C-9C8F37AF2C8D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Estuda em" directorySegmentName="seg_0" id="99E591D4-791D-5D59-C313-D0EE5A72E78C">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 14:18:58 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<sourcePk>E1CAE883-FA95-C1F4-3185-28EC6B0921D7</sourcePk>
+<targetPk>D5FB7248-A68A-8416-9E9F-507323AA0B0E</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>94ADE909-9F8D-8E88-1CC2-248F85FB666F</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>4B184B72-FE05-F176-9FAE-958719528A5F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Conclusão" id="BE59FF47-DF87-638B-7741-A26BCA05EEC7">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-16 09:31:46 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

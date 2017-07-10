@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Recebe por" directorySegmentName="seg_0" id="35081DB3-DD69-24AC-5AC1-338EC4218739">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 13:43:51 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="59024E7F-1083-2F59-CAFC-7F9682B3534F" value="true"/>
+</engineerTo>
+<sourcePk>FEA543A0-BF59-A2D2-1E94-B93CBA549D7F</sourcePk>
+<targetPk>B10318A6-B6E8-3B48-0B99-D0D75B3766F2</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>D6D1189A-4F05-754A-37C8-38D2B833F388</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>80D158F9-A83C-AC26-6BFC-3D0F6C3FC6AE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

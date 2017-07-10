@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="492C7612-3AA5-FF7C-CFC4-036CC59D958E" name="tb_formacao">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:03:56 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ano_formacao" id="0637B334-2EA9-E6F2-C8FD-0DD7CC2358B9">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:05:44 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="66043158-CA47-4033-A29C-36A0C5283F36">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:05:44 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="curso" id="9AE59D74-961C-FB34-0967-611E4E7C9191">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:05:44 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nivel" id="7EFF92D1-6D18-3A70-67FA-F18F59A53B6C">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:05:44 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lugar" id="070BD986-2CD5-26C7-434B-280F59FF6AC1">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:05:44 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E827C00-F1D5-D610-7B14-AD497CC7DC52" name="tb_formacao_PK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:05:44 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66043158-CA47-4033-A29C-36A0C5283F36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

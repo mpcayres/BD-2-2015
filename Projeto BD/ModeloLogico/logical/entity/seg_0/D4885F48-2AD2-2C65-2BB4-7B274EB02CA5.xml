@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D4885F48-2AD2-2C65-2BB4-7B274EB02CA5" name="Matérias">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 13:49:58 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="80A6A605-8EDF-A908-5CFE-680371A528F4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Código" id="7060C359-0D30-77B9-E0F6-B8B5DEB6CA41">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 14:26:38 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="80A6A605-8EDF-A908-5CFE-680371A528F4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Denominação" id="11CA853C-0329-D1DA-6318-149B2D7F0125">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 14:26:45 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="80A6A605-8EDF-A908-5CFE-680371A528F4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Horas/Aula" id="76FA6165-A169-A2BA-92D8-886E802D5A4F">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 14:26:45 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="80A6A605-8EDF-A908-5CFE-680371A528F4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Código1" id="9D5950CB-D6F9-6CCE-5DD3-609BD1958D89">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 14:29:32 UTC</createdTime>
+<generatorID>C17EE9A5-2F14-DE84-7623-FBFA0B0E581E</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="80A6A605-8EDF-A908-5CFE-680371A528F4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>029F36F0-6520-76BC-503F-E028791D7CE4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Código2" id="2C1CF631-6D94-5AA0-7127-B123E385E94F">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 14:31:47 UTC</createdTime>
+<generatorID>7EA993D1-83C0-7321-1772-6650A21FF0AD</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="80A6A605-8EDF-A908-5CFE-680371A528F4" value="true"/>
+</engineerTo>
+<referedAttribute>5E5A38B6-CA3A-1758-1BFC-D1B555F2CA39</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="73EB76D6-0CB2-FAB3-9DEB-BC33D52BC5A5" name="Matérias PK">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 14:26:44 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="80A6A605-8EDF-A908-5CFE-680371A528F4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7060C359-0D30-77B9-E0F6-B8B5DEB6CA41</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D7CB3F3-D6EB-2021-3D16-9097431D2ECA" name="tb_funcionario">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:46:13 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpf" id="8EA3A5F8-C4AE-E823-14B6-321778B4C069">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:53:19 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="foto" id="BCB3FA81-9147-7D87-8CC1-F8174B3AB3C5">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:53:19 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="6E11AAE5-0E1C-DC94-E5E6-1FC085397766">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:53:19 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="22A5DD79-80D3-BEDE-C8F8-6ABAC4B49C02">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:53:19 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco" id="F4EEE065-F748-C234-C614-25E065043777">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:53:19 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="6E1A6CF8-608C-5976-AE78-236CA4B1BEF2">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:53:19 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nascimento" id="5A62D7C4-8770-CD13-B7A0-AE76F4738FB1">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:53:19 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3E1BC31-D169-F2D6-5B71-4ED7F16764BD" name="tb_funcionario_PK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:53:19 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EA3A5F8-C4AE-E823-14B6-321778B4C069"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

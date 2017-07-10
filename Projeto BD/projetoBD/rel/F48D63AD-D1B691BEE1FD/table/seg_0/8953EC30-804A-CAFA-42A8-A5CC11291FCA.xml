@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8953EC30-804A-CAFA-42A8-A5CC11291FCA" name="tb_serie">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:35:37 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="DB193312-9434-291C-5FEF-23AC9E16F76B">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:36:43 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeacao" id="63BD6CAE-5A3E-EDA4-C42F-7F96F7F13DE1">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:36:43 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="regime" id="082353D2-1120-E7A8-F418-1F902FD28682">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:36:43 UTC</createdTime>
+<commentInRDBMS>Regular ou supletivo</commentInRDBMS>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3348DD3A-FDD4-DD15-C6A1-FAA7B7A649E2" name="tb_serie_PK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:36:43 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB193312-9434-291C-5FEF-23AC9E16F76B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="94ADE909-9F8D-8E88-1CC2-248F85FB666F" name="Aluno">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 12:51:06 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Matrícula" id="66B4E29E-FFB0-1D71-71EC-34DF6547219B">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 12:51:43 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Endereço" id="6DFA1F23-BE86-435B-8744-03D20C407B61">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 12:52:27 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefone" id="630E8296-5021-1150-9EC9-6E809DE0D83C">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 12:52:29 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="8A6A02DC-8184-C4F0-D8CF-49F8E614705B">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 12:52:33 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="E-mail" id="AADE380C-0C47-4B95-50E1-08A5D8B948AA">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 12:52:35 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data de Nascimento" id="019927DD-E591-55FF-47FC-888666A09AAF">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 12:52:38 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gênero" id="155478C2-040A-5994-1454-A4DE40E67027">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 12:53:14 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Código" id="43044B6E-675E-0C76-ED19-6B9C4DC4D361">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 13:56:22 UTC</createdTime>
+<generatorID>B58E4226-6D88-F14B-B8E4-1CF6DCEE4521</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5D401768-CB74-9008-54FB-C349A7518D49</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Código1" id="42659025-DB8F-C541-F9B2-0BE7E08E89C2">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 14:19:52 UTC</createdTime>
+<generatorID>99E591D4-791D-5D59-C313-D0EE5A72E78C</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5E5A38B6-CA3A-1758-1BFC-D1B555F2CA39</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E1CAE883-FA95-C1F4-3185-28EC6B0921D7" name="Aluno PK">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 12:51:47 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>66B4E29E-FFB0-1D71-71EC-34DF6547219B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

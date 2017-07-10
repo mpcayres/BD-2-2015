@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Leciona" directorySegmentName="seg_0" id="F232EDB3-E342-B299-F430-985A1A6646FA">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 14:32:10 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="59024E7F-1083-2F59-CAFC-7F9682B3534F" value="true"/>
+</engineerTo>
+<sourcePk>67D9718E-9956-9C34-7B1E-2E569F63B2D4</sourcePk>
+<targetPk>73EB76D6-0CB2-FAB3-9DEB-BC33D52BC5A5</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>CE44ACEE-B4E9-4C5E-550D-55AE5EB5663B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D4885F48-2AD2-2C65-2BB4-7B274EB02CA5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

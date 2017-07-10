@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A46AF128-BC17-CF68-315C-E0D084284F21" name="tb_nivel_de_ensino">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:30:20 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="C35C2988-48B3-66F7-7BB3-C18E461FE302">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:32:07 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_etapa" id="99634325-7261-D2BD-73A4-3F86D469E47A">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:32:07 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="financiamento" id="8F25FACA-A44E-CC84-D808-46C585313924">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:32:07 UTC</createdTime>
+<commentInRDBMS>Público, privado ou autónomo</commentInRDBMS>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BDD8D2E0-F4EF-6057-11A8-1FB907FAD3F3" name="tb_nivel_de_ensino_PK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:32:07 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C35C2988-48B3-66F7-7BB3-C18E461FE302"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

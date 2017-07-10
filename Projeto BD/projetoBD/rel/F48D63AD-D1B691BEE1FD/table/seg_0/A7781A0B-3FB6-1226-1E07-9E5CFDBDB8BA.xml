@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7781A0B-3FB6-1226-1E07-9E5CFDBDB8BA" name="tb_aluno_serie">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 23:52:13 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>projetoBD</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="conclusao" id="17303756-2FA5-5838-F6C8-DE3F42CD78CD">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 23:52:41 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tb_serie_ID" id="584C6EA0-F85A-7632-65F4-1F4D8134A826">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 23:57:16 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>projetoBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4883D5E9-D7A5-463C-4F79-73E3F6EAAA94" referredColumn="DB193312-9434-291C-5FEF-23AC9E16F76B"/>
+</associations>
+</Column>
+<Column name="tb_aluno_matricula" id="64954ED2-CE63-9531-2553-D9E49E2076FD">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-18 13:03:02 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F352A876-EB14-00B5-6589-6F3ACBF83EE2" referredColumn="7392A646-D869-FC40-38C8-9CE9600A55B9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6AD0AC42-9608-0CF4-8202-2EF5A6F55000" name="tb_aluno_serie_tb_serie_FK">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 23:57:16 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="584C6EA0-F85A-7632-65F4-1F4D8134A826"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00022D9B-F5BB-E080-8436-FE97448D9CF6" name="tb_aluno_serie_tb_aluno_FK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-18 13:03:02 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64954ED2-CE63-9531-2553-D9E49E2076FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

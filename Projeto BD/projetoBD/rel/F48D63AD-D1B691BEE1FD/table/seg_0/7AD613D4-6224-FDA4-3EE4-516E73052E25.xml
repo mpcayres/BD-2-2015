@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7AD613D4-6224-FDA4-3EE4-516E73052E25" name="tb_ano_letivo">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:32:17 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="inicio_ano_letivo" id="43B230CE-A6F9-7A85-BDEF-59A0FA56CE45">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:39:40 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fim_ano_letivo" id="79326322-3EAC-010A-268F-EA503AF201F1">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:39:40 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="inicio_ferias_inverno" id="5F481A12-A841-10EB-4E33-F09A1293EE5D">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:39:40 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fim_ferias_inverno" id="69049058-353C-3E84-F444-EDEB1CACA6D1">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:39:40 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tb_escola_ID" id="924B0741-3823-29FD-4817-8BFDBD5DDB60">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:44:41 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41F72479-A1FD-7718-C7FF-34A253DF5532" referredColumn="3637C759-2C98-8FC8-76CA-6C922757A606"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DFD8C39B-A2B9-0816-7051-0C0331B2FA59" name="tb_ano_letivo_tb_escola_FK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:44:41 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="924B0741-3823-29FD-4817-8BFDBD5DDB60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="210899FE-960D-E0AF-99B3-951616A52B83" name="tb_tipo_aluno">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:20:51 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="9AD9C724-8A92-DD79-80D3-F5C25B5FC756">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:26:00 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="atendimento_especial" id="A89FD09B-9EC2-4555-7E85-A3FEE708BBF3">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:26:00 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desconto" id="0AA260C2-C979-6605-B875-52DCA8E4B731">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:26:00 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="846AE839-5E95-E244-CF08-D5A3CED4E796">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:26:00 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="31B03F7E-DB19-D4E6-A734-2DAF90DCDD0E" name="tb_tipo_aluno_PK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:26:00 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AD9C724-8A92-DD79-80D3-F5C25B5FC756"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

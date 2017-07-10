@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB1C9A13-37E0-58A8-DA1B-28CF3A6036DC" name="tb_funcionario_cargo">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:15:09 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tb_cargo_ID" id="A66F5751-EA8C-7E00-AC9F-8594C3F681A0">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:16:00 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5B8FFA5-3095-F82F-550F-23102E792D74" referredColumn="2388BA50-8EFF-2788-F84D-B6656E29F519"/>
+</associations>
+</Column>
+<Column name="tb_funcionario_cpf" id="FB446E2B-FB69-F14A-A8F6-2EDAA1FDEC47">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:16:12 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7E36FE7-C9F8-DDAE-1BA1-96060F51830D" referredColumn="8EA3A5F8-C4AE-E823-14B6-321778B4C069"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="519B3286-43BC-B31A-329B-A7052A182F3D" name="tb_funcionario_cargo_tb_cargo_FK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:16:00 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A66F5751-EA8C-7E00-AC9F-8594C3F681A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C05A8BA-79BE-1D64-9C75-3A69FB8800F2" name="tb_funcionario_cargo_tb_funcionario_FK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:16:12 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB446E2B-FB69-F14A-A8F6-2EDAA1FDEC47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

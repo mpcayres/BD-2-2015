@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69243DB9-41CD-6224-95F5-B39AFE16C8C8" name="tb_emprego">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-14 00:04:22 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<ordsAlias>table_26</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="536EA330-545B-2347-D165-440F24071E93">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-14 00:05:23 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="categoria" id="DBCBBD21-061E-DA24-5C85-8491B2FF6A73">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-14 00:05:23 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="faixa_salarial" id="23E004B5-CD7F-EF17-B87C-4C861AE8A51B">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-14 00:05:23 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="827E049B-BA09-935B-CAA2-83F38DE25B29" name="tb_emprego_PK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-14 00:05:43 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="536EA330-545B-2347-D165-440F24071E93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

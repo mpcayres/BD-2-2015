@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5C98777A-58AC-79E3-45E0-01F9797BA9E4" containerWithKeyObject="D6F50B71-3E39-204D-64FC-6C987C82CD3E" localFKIndex="56638977-E8C1-FCAF-6CCF-2E8F4DB40683" name="tb_responsavel_emprego_tb_responsavel_FK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-14 00:06:12 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DFA636FB-6953-88DB-611D-F6DD63FAB555</referredTableID>
+<keyObject>87A0E857-8594-3AB1-4C3C-8D62FD1790EC</keyObject>
+<referredKeyID>87A0E857-8594-3AB1-4C3C-8D62FD1790EC</referredKeyID>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

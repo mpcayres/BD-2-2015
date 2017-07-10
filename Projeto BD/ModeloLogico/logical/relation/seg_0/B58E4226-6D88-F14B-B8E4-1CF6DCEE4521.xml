@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Especifica condições de" directorySegmentName="seg_0" id="B58E4226-6D88-F14B-B8E4-1CF6DCEE4521">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 13:56:22 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<sourcePk>18D86809-A4CC-626F-5499-D6A28747CA28</sourcePk>
+<targetPk>E1CAE883-FA95-C1F4-3185-28EC6B0921D7</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8EE14E8F-9B6C-B5E1-18F9-B439550F182A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>94ADE909-9F8D-8E88-1CC2-248F85FB666F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Integrada por" directorySegmentName="seg_0" id="88C9A6B6-E9D9-3FAE-4ACF-D94B84EEB725">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 12:51:31 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<sourcePk>7B3E8847-2FE6-68B1-CCE7-CE05B4965A58</sourcePk>
+<targetPk>E1CAE883-FA95-C1F4-3185-28EC6B0921D7</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>E6B02389-10D3-3918-CD0D-8061E7789DBE</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>94ADE909-9F8D-8E88-1CC2-248F85FB666F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Conclusão" id="B3334AD5-E056-A52E-03EE-72DBB5340E4D">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 12:53:24 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

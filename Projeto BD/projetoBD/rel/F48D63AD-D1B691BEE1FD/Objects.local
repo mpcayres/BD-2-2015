@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="649ECA01-BD16-2707-F59C-049628A9E539" name="tb_aluno" seqName="seg_0"/>
+   <object objectType="Table" objectID="0EA952C2-92D9-EC34-9684-B9BB47751F13" name="tb_aluno_historico" seqName="seg_0"/>
+   <object objectType="Table" objectID="A7781A0B-3FB6-1226-1E07-9E5CFDBDB8BA" name="tb_aluno_serie" seqName="seg_0"/>
+   <object objectType="Table" objectID="5F242678-00D7-5810-36F2-A4CCDFBB4A96" name="tb_aluno_turma" seqName="seg_0"/>
+   <object objectType="Table" objectID="7AD613D4-6224-FDA4-3EE4-516E73052E25" name="tb_ano_letivo" seqName="seg_0"/>
+   <object objectType="Table" objectID="44A4780C-96D5-7461-0C86-5BF72A160D42" name="tb_coordenacao_area" seqName="seg_0"/>
+   <object objectType="Table" objectID="69243DB9-41CD-6224-95F5-B39AFE16C8C8" name="tb_emprego" seqName="seg_0"/>
+   <object objectType="Table" objectID="B6FEEE9C-D4E4-3072-2BDC-C35234DAAFBB" name="tb_escola" seqName="seg_0"/>
+   <object objectType="Table" objectID="CB412905-75F8-8695-1683-2DBE60B72386" name="tb_escola_nivel_ensino" seqName="seg_0"/>
+   <object objectType="Table" objectID="492C7612-3AA5-FF7C-CFC4-036CC59D958E" name="tb_formacao" seqName="seg_0"/>
+   <object objectType="Table" objectID="3D7CB3F3-D6EB-2021-3D16-9097431D2ECA" name="tb_funcionario" seqName="seg_0"/>
+   <object objectType="Table" objectID="BB1C9A13-37E0-58A8-DA1B-28CF3A6036DC" name="tb_funcionario_cargo" seqName="seg_0"/>
+   <object objectType="Table" objectID="1D341664-7C1F-FFA9-014B-BDC72B88AA58" name="tb_funcionario_escola" seqName="seg_0"/>
+   <object objectType="Table" objectID="748B1A30-E40E-1175-EF13-05F6A21702C0" name="tb_funcionario_formacao" seqName="seg_0"/>
+   <object objectType="Table" objectID="CD9E503C-8557-6B96-7B83-036FCB0C2A6D" name="tb_historico" seqName="seg_0"/>
+   <object objectType="Table" objectID="F9CE0E94-A7D0-8DFC-8E2D-3FC81EC41A8A" name="tb_leciona" seqName="seg_0"/>
+   <object objectType="Table" objectID="37C36E33-A872-78D9-5A81-4224563139FB" name="tb_materia" seqName="seg_0"/>
+   <object objectType="Table" objectID="388F232B-B5E8-43EF-56B7-1D4A2A9B047A" name="tb_materias_historico" seqName="seg_0"/>
+   <object objectType="Table" objectID="A46AF128-BC17-CF68-315C-E0D084284F21" name="tb_nivel_de_ensino" seqName="seg_0"/>
+   <object objectType="Table" objectID="DFA636FB-6953-88DB-611D-F6DD63FAB555" name="tb_responsavel" seqName="seg_0"/>
+   <object objectType="Table" objectID="E6430079-CEDC-C14F-902B-F02CA93FC78B" name="tb_responsavel_aluno" seqName="seg_0"/>
+   <object objectType="Table" objectID="D6F50B71-3E39-204D-64FC-6C987C82CD3E" name="tb_responsavel_emprego" seqName="seg_0"/>
+   <object objectType="Table" objectID="8953EC30-804A-CAFA-42A8-A5CC11291FCA" name="tb_serie" seqName="seg_0"/>
+   <object objectType="Table" objectID="B3DE5072-38D2-D6E0-4479-B7F723FB97B4" name="tb_serie_historico" seqName="seg_0"/>
+   <object objectType="Table" objectID="210899FE-960D-E0AF-99B3-951616A52B83" name="tb_tipo_aluno" seqName="seg_0"/>
+   <object objectType="Table" objectID="DD294146-7658-7535-B01A-56D2720CD153" name="tb_turma" seqName="seg_0"/>
+   <object objectType="Table" objectID="2BF01A18-4D8F-A409-4CB5-96A6DE583236" name="tb_vinculo_empregaticio" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="0E3D7101-C30A-532D-91C4-E89B94196073" name="tb_aluno_tb_tipo_aluno_FK" seqName="seg_0" containerID="649ECA01-BD16-2707-F59C-049628A9E539" refContainerID="210899FE-960D-E0AF-99B3-951616A52B83"/>
+   <object objectType="FKIndexAssociation" objectID="A2D08D18-B4E8-506C-709B-4A71B15DD501" name="tb_aluno_historico_tb_aluno_FK" seqName="seg_0" containerID="0EA952C2-92D9-EC34-9684-B9BB47751F13" refContainerID="649ECA01-BD16-2707-F59C-049628A9E539"/>
+   <object objectType="FKIndexAssociation" objectID="D9B00E53-AC7D-FB75-A4BD-F95E82621D32" name="tb_aluno_historico_tb_historico_FK" seqName="seg_0" containerID="0EA952C2-92D9-EC34-9684-B9BB47751F13" refContainerID="CD9E503C-8557-6B96-7B83-036FCB0C2A6D"/>
+   <object objectType="FKIndexAssociation" objectID="F352A876-EB14-00B5-6589-6F3ACBF83EE2" name="tb_aluno_serie_tb_aluno_FK" seqName="seg_0" containerID="A7781A0B-3FB6-1226-1E07-9E5CFDBDB8BA" refContainerID="649ECA01-BD16-2707-F59C-049628A9E539"/>
+   <object objectType="FKIndexAssociation" objectID="4883D5E9-D7A5-463C-4F79-73E3F6EAAA94" name="tb_aluno_serie_tb_serie_FK" seqName="seg_0" containerID="A7781A0B-3FB6-1226-1E07-9E5CFDBDB8BA" refContainerID="8953EC30-804A-CAFA-42A8-A5CC11291FCA"/>
+   <object objectType="FKIndexAssociation" objectID="860385BD-A2DE-E647-9571-A3D034DA9FAB" name="tb_aluno_tb_escola_FK" seqName="seg_0" containerID="649ECA01-BD16-2707-F59C-049628A9E539" refContainerID="B6FEEE9C-D4E4-3072-2BDC-C35234DAAFBB"/>
+   <object objectType="FKIndexAssociation" objectID="57E89770-3AC9-63D6-5D03-3BF2D6BC5633" name="tb_aluno_turma_tb_aluno_FK" seqName="seg_0" containerID="5F242678-00D7-5810-36F2-A4CCDFBB4A96" refContainerID="649ECA01-BD16-2707-F59C-049628A9E539"/>
+   <object objectType="FKIndexAssociation" objectID="0DED1E20-BCA7-DB80-2C73-644C8D401695" name="tb_aluno_turma_tb_turma_FK" seqName="seg_0" containerID="5F242678-00D7-5810-36F2-A4CCDFBB4A96" refContainerID="DD294146-7658-7535-B01A-56D2720CD153"/>
+   <object objectType="FKIndexAssociation" objectID="41F72479-A1FD-7718-C7FF-34A253DF5532" name="tb_ano_letivo_tb_escola_FK" seqName="seg_0" containerID="7AD613D4-6224-FDA4-3EE4-516E73052E25" refContainerID="B6FEEE9C-D4E4-3072-2BDC-C35234DAAFBB"/>
+   <object objectType="FKIndexAssociation" objectID="09962DA7-3204-EC10-3B44-FE7B9F7C58C9" name="tb_area_tb_cargo_FK" seqName="seg_0" containerID="44A4780C-96D5-7461-0C86-5BF72A160D42" refContainerID="2BF01A18-4D8F-A409-4CB5-96A6DE583236"/>
+   <object objectType="FKIndexAssociation" objectID="7BC6E5E5-35C9-3B20-5ECF-9DD2BBC18893" name="tb_escola_nivel_ensino_tb_escola_FK" seqName="seg_0" containerID="CB412905-75F8-8695-1683-2DBE60B72386" refContainerID="B6FEEE9C-D4E4-3072-2BDC-C35234DAAFBB"/>
+   <object objectType="FKIndexAssociation" objectID="3356B940-CFFC-61C4-2F87-86772593032B" name="tb_escola_nivel_ensino_tb_nivel_de_ensino_FK" seqName="seg_0" containerID="CB412905-75F8-8695-1683-2DBE60B72386" refContainerID="A46AF128-BC17-CF68-315C-E0D084284F21"/>
+   <object objectType="FKIndexAssociation" objectID="C5B8FFA5-3095-F82F-550F-23102E792D74" name="tb_funcionario_cargo_tb_cargo_FK" seqName="seg_0" containerID="BB1C9A13-37E0-58A8-DA1B-28CF3A6036DC" refContainerID="2BF01A18-4D8F-A409-4CB5-96A6DE583236"/>
+   <object objectType="FKIndexAssociation" objectID="E7E36FE7-C9F8-DDAE-1BA1-96060F51830D" name="tb_funcionario_cargo_tb_funcionario_FK" seqName="seg_0" containerID="BB1C9A13-37E0-58A8-DA1B-28CF3A6036DC" refContainerID="3D7CB3F3-D6EB-2021-3D16-9097431D2ECA"/>
+   <object objectType="FKIndexAssociation" objectID="922767D8-EB02-0B03-F661-D5F5B7D95E3E" name="tb_funcionario_escola_tb_escola_FK" seqName="seg_0" containerID="1D341664-7C1F-FFA9-014B-BDC72B88AA58" refContainerID="B6FEEE9C-D4E4-3072-2BDC-C35234DAAFBB"/>
+   <object objectType="FKIndexAssociation" objectID="F03EE7C9-0F19-97FD-67B0-7BF8B725673D" name="tb_funcionario_escola_tb_funcionario_FK" seqName="seg_0" containerID="1D341664-7C1F-FFA9-014B-BDC72B88AA58" refContainerID="3D7CB3F3-D6EB-2021-3D16-9097431D2ECA"/>
+   <object objectType="FKIndexAssociation" objectID="52F90B88-9B03-D76B-3D39-46BA0B1E2942" name="tb_funcionario_formacao_tb_formacao_FK" seqName="seg_0" containerID="748B1A30-E40E-1175-EF13-05F6A21702C0" refContainerID="492C7612-3AA5-FF7C-CFC4-036CC59D958E"/>
+   <object objectType="FKIndexAssociation" objectID="65CBF3AB-4EF0-03A8-9705-E73F95E335FB" name="tb_funcionario_formacao_tb_funcionario_FK" seqName="seg_0" containerID="748B1A30-E40E-1175-EF13-05F6A21702C0" refContainerID="3D7CB3F3-D6EB-2021-3D16-9097431D2ECA"/>
+   <object objectType="FKIndexAssociation" objectID="BDBE210A-0F99-90DB-3CA8-9A2871DC9A9F" name="tb_historico_tb_aluno_FK" seqName="seg_0" containerID="CD9E503C-8557-6B96-7B83-036FCB0C2A6D" refContainerID="649ECA01-BD16-2707-F59C-049628A9E539"/>
+   <object objectType="FKIndexAssociation" objectID="CE505A35-C57F-C919-75A5-ADCF1B4F3065" name="tb_leciona_tb_cargo_FK" seqName="seg_0" containerID="F9CE0E94-A7D0-8DFC-8E2D-3FC81EC41A8A" refContainerID="2BF01A18-4D8F-A409-4CB5-96A6DE583236"/>
+   <object objectType="FKIndexAssociation" objectID="69D6C88F-D3F6-563C-08E5-851F746AC9A9" name="tb_leciona_tb_materia_FK" seqName="seg_0" containerID="F9CE0E94-A7D0-8DFC-8E2D-3FC81EC41A8A" refContainerID="37C36E33-A872-78D9-5A81-4224563139FB"/>
+   <object objectType="FKIndexAssociation" objectID="BC690D67-592F-C0EA-A169-6BE8AC34C153" name="tb_materia_tb_area_FK" seqName="seg_0" containerID="37C36E33-A872-78D9-5A81-4224563139FB" refContainerID="44A4780C-96D5-7461-0C86-5BF72A160D42"/>
+   <object objectType="FKIndexAssociation" objectID="67231445-7384-E1F9-D948-FDF24A880D77" name="tb_materia_tb_serie_FK" seqName="seg_0" containerID="37C36E33-A872-78D9-5A81-4224563139FB" refContainerID="8953EC30-804A-CAFA-42A8-A5CC11291FCA"/>
+   <object objectType="FKIndexAssociation" objectID="7F90C070-D670-015B-EDB5-68E4FC232BE5" name="tb_materias_historico_tb_historico_FK" seqName="seg_0" containerID="388F232B-B5E8-43EF-56B7-1D4A2A9B047A" refContainerID="CD9E503C-8557-6B96-7B83-036FCB0C2A6D"/>
+   <object objectType="FKIndexAssociation" objectID="79362266-A51A-35BD-1D28-606C36AA7060" name="tb_materias_historico_tb_materia_FK" seqName="seg_0" containerID="388F232B-B5E8-43EF-56B7-1D4A2A9B047A" refContainerID="37C36E33-A872-78D9-5A81-4224563139FB"/>
+   <object objectType="FKIndexAssociation" objectID="A8E86FD5-45BE-02ED-F4D4-DA73DD34E269" name="tb_responsavel_aluno_tb_aluno_FK" seqName="seg_0" containerID="E6430079-CEDC-C14F-902B-F02CA93FC78B" refContainerID="649ECA01-BD16-2707-F59C-049628A9E539"/>
+   <object objectType="FKIndexAssociation" objectID="767E7E17-CEAF-FF48-C611-819430A15446" name="tb_responsavel_aluno_tb_responsavel_FK" seqName="seg_0" containerID="E6430079-CEDC-C14F-902B-F02CA93FC78B" refContainerID="DFA636FB-6953-88DB-611D-F6DD63FAB555"/>
+   <object objectType="FKIndexAssociation" objectID="1359F767-0803-B2EB-97A3-B629998EBAE9" name="tb_responsavel_emprego_tb_emprego_FK" seqName="seg_0" containerID="D6F50B71-3E39-204D-64FC-6C987C82CD3E" refContainerID="69243DB9-41CD-6224-95F5-B39AFE16C8C8"/>
+   <object objectType="FKIndexAssociation" objectID="5C98777A-58AC-79E3-45E0-01F9797BA9E4" name="tb_responsavel_emprego_tb_responsavel_FK" seqName="seg_0" containerID="D6F50B71-3E39-204D-64FC-6C987C82CD3E" refContainerID="DFA636FB-6953-88DB-611D-F6DD63FAB555"/>
+   <object objectType="FKIndexAssociation" objectID="5D9A343E-437E-439D-7C0A-6E34AE00A85C" name="tb_serie_historico_tb_historico_FK" seqName="seg_0" containerID="B3DE5072-38D2-D6E0-4479-B7F723FB97B4" refContainerID="CD9E503C-8557-6B96-7B83-036FCB0C2A6D"/>
+   <object objectType="FKIndexAssociation" objectID="013BDC79-1DE5-E76A-9C82-222C14736348" name="tb_serie_historico_tb_serie_FK" seqName="seg_0" containerID="B3DE5072-38D2-D6E0-4479-B7F723FB97B4" refContainerID="8953EC30-804A-CAFA-42A8-A5CC11291FCA"/>
+   <object objectType="FKIndexAssociation" objectID="F3E481D3-ED28-E280-F913-59C6CE8136AD" name="tb_turma_tb_serie_FK" seqName="seg_0" containerID="DD294146-7658-7535-B01A-56D2720CD153" refContainerID="8953EC30-804A-CAFA-42A8-A5CC11291FCA"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3DE5072-38D2-D6E0-4479-B7F723FB97B4" name="tb_serie_historico">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-14 00:00:06 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tb_serie_ID" id="EF990A7A-6997-6A4B-764B-6898DB4B9EC8">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-14 00:00:23 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="013BDC79-1DE5-E76A-9C82-222C14736348" referredColumn="DB193312-9434-291C-5FEF-23AC9E16F76B"/>
+</associations>
+</Column>
+<Column name="tb_historico_ano" id="3BAE027A-956F-9C19-F64B-3D1C1A768CE9">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-14 00:00:46 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D9A343E-437E-439D-7C0A-6E34AE00A85C" referredColumn="9B8F3E49-E594-093B-6244-46DDDB48A5A8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A3EF8B32-D4B0-5898-E834-FF27CBC06746" name="tb_serie_historico_PK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-14 00:01:00 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF990A7A-6997-6A4B-764B-6898DB4B9EC8"/>
+<colUsage columnID="3BAE027A-956F-9C19-F64B-3D1C1A768CE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E695F30-287C-2BC7-E171-C80F465D4E5F" name="tb_serie_historico_tb_serie_FK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-14 00:00:23 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF990A7A-6997-6A4B-764B-6898DB4B9EC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72344CC5-41D0-E074-F45E-56372504AEB6" name="tb_serie_historico_tb_historico_FK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-14 00:00:46 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BAE027A-956F-9C19-F64B-3D1C1A768CE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

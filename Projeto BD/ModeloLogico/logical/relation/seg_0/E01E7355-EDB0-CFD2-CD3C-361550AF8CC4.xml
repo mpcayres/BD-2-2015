@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pertence a" directorySegmentName="seg_0" id="E01E7355-EDB0-CFD2-CD3C-361550AF8CC4">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 14:22:39 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="59024E7F-1083-2F59-CAFC-7F9682B3534F" value="true"/>
+</engineerTo>
+<sourcePk>E1CAE883-FA95-C1F4-3185-28EC6B0921D7</sourcePk>
+<targetPk>C0ADF654-DEC7-600E-069D-1DA7E5F8188A</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>94ADE909-9F8D-8E88-1CC2-248F85FB666F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4243C551-77D1-9723-D2B4-506E839B6745</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

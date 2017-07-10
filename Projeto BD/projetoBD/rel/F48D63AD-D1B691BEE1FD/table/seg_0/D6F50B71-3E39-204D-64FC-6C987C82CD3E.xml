@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6F50B71-3E39-204D-64FC-6C987C82CD3E" name="tb_responsavel_emprego">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-14 00:05:54 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tb_responsavel_cpf" id="3E53BC2B-EF41-A6D8-230D-971127E3597D">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-14 00:06:12 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C98777A-58AC-79E3-45E0-01F9797BA9E4" referredColumn="539F3B10-1DD5-6AD9-62ED-7326876DD286"/>
+</associations>
+</Column>
+<Column name="tb_emprego_ID" id="B69A326C-CC22-1ACF-2BE3-A07F4A1EF08F">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-14 00:06:25 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1359F767-0803-B2EB-97A3-B629998EBAE9" referredColumn="536EA330-545B-2347-D165-440F24071E93"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56638977-E8C1-FCAF-6CCF-2E8F4DB40683" name="tb_responsavel_emprego_tb_responsavel_FK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-14 00:06:12 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E53BC2B-EF41-A6D8-230D-971127E3597D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC2DFA95-24E9-CC40-B1F7-757AB7A5BED0" name="tb_responsavel_emprego_tb_emprego_FK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-14 00:06:25 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B69A326C-CC22-1ACF-2BE3-A07F4A1EF08F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

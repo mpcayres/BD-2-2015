@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="37C36E33-A872-78D9-5A81-4224563139FB" name="tb_materia">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:44:03 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="075A2963-96FA-E0AF-83B1-F5B047654F8C">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:44:57 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="denominacao" id="4C069313-EFAD-F7AD-4C6C-261AB42BD2ED">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:44:57 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horas_aula" id="EC52C9D2-A7A1-C14B-7CE9-56AF2CD91F5E">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:44:57 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tb_serie_ID" id="FFEB270D-E100-BFEB-51A7-0A5FA1C80715">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:45:19 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67231445-7384-E1F9-D948-FDF24A880D77" referredColumn="DB193312-9434-291C-5FEF-23AC9E16F76B"/>
+</associations>
+</Column>
+<Column name="tb_area_ID" id="99FE2B5F-F598-40E2-B556-9790EC18FD0E">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:50:34 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC690D67-592F-C0EA-A169-6BE8AC34C153" referredColumn="4A0AE956-2B7E-972F-E02B-5B4AC570C680"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F56319D9-9F4C-C99D-1B01-8F1EAB6C3FE2" name="tb_materia_PK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:44:57 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="075A2963-96FA-E0AF-83B1-F5B047654F8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28B1C15E-F32E-ABB2-4074-165E35F38AB9" name="tb_materia_tb_serie_FK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:45:19 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFEB270D-E100-BFEB-51A7-0A5FA1C80715"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA035EF7-F8DB-50A9-1B5C-2F4E75A80995" name="tb_materia_tb_area_FK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:50:34 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99FE2B5F-F598-40E2-B556-9790EC18FD0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

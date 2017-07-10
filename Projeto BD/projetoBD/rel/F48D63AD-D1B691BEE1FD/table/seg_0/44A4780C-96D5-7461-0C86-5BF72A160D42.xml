@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44A4780C-96D5-7461-0C86-5BF72A160D42" name="tb_coordenacao_area">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:46:24 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="4A0AE956-2B7E-972F-E02B-5B4AC570C680">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:47:40 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeacao" id="F8146DB2-F1B8-BC16-575C-D00F6AA2BEEB">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:47:40 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="categoria" id="6B2CAA5A-CC6E-89C4-0C2C-7885867296AC">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:47:40 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tb_cargo_ID" id="D59B9BCA-36DD-14B1-C036-3D332BDF3AC1">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:49:26 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09962DA7-3204-EC10-3B44-FE7B9F7C58C9" referredColumn="2388BA50-8EFF-2788-F84D-B6656E29F519"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8B89B246-D819-192D-E900-8A0F57AE62F1" name="tb_area_PK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:48:09 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A0AE956-2B7E-972F-E02B-5B4AC570C680"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16B109A9-A32D-B6B7-7D3C-5687C87FA655" name="tb_area_tb_cargo_FK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:49:26 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D59B9BCA-36DD-14B1-C036-3D332BDF3AC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

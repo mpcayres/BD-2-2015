@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E8AF88FC-8E04-FE61-F374-EBB46F545062" name="Ano Letivo">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 12:18:04 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="80A6A605-8EDF-A908-5CFE-680371A528F4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Início do Ano Letivo" id="7CA3AB49-60C7-49F7-CDB6-610A036ED4B2">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 12:18:17 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="80A6A605-8EDF-A908-5CFE-680371A528F4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fim do Ano Letivo" id="1E11709F-1ADA-73ED-DEC0-F54C880FA387">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 12:18:35 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="80A6A605-8EDF-A908-5CFE-680371A528F4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Início das Férias de Inverno" id="4B96DBBA-29E3-8777-2F0A-3BD2B02EB00B">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 12:18:51 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="80A6A605-8EDF-A908-5CFE-680371A528F4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fim das Férias de Inverno" id="AF75CCE8-5D1D-EA3F-FB0D-24EA7CE504A3">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 12:19:14 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="80A6A605-8EDF-A908-5CFE-680371A528F4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Código" id="89019702-58E5-12F9-CDF5-7D29A1606B3E">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 12:26:46 UTC</createdTime>
+<generatorID>B9787A47-EF4F-B34B-C419-50562A66A3DA</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="80A6A605-8EDF-A908-5CFE-680371A528F4" value="true"/>
+</engineerTo>
+<referedAttribute>31ABB35C-7694-2560-A08E-45553FFBE364</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5A5F6F87-BAF3-1F68-BF16-B2426ED9DCC9" name="Ano Letivo PK">
+<createdBy>Larissa</createdBy>
+<createdTime>2015-11-15 12:23:47 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="80A6A605-8EDF-A908-5CFE-680371A528F4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>89019702-58E5-12F9-CDF5-7D29A1606B3E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

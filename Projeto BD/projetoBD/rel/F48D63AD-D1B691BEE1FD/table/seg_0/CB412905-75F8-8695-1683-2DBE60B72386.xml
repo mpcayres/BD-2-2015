@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB412905-75F8-8695-1683-2DBE60B72386" name="tb_escola_nivel_ensino">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:41:03 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tb_escola_ID" id="1A112860-D003-4A2C-2400-9030A830170D">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:44:01 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BC6E5E5-35C9-3B20-5ECF-9DD2BBC18893" referredColumn="3637C759-2C98-8FC8-76CA-6C922757A606"/>
+</associations>
+</Column>
+<Column name="tb_nivel_de_ensino_ID" id="16AECA1C-6191-F8AD-5F0D-32E3682404D2">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:44:20 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3356B940-CFFC-61C4-2F87-86772593032B" referredColumn="C35C2988-48B3-66F7-7BB3-C18E461FE302"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F8C8CD3-EADD-7FDA-DF9F-8B240175E4D1" name="tb_escola_nivel_ensino_tb_escola_FK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:44:01 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A112860-D003-4A2C-2400-9030A830170D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D40A092-3072-BA4E-4303-4EEB2B25D2F5" name="tb_escola_nivel_ensino_tb_nivel_de_ensino_FK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 22:44:20 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16AECA1C-6191-F8AD-5F0D-32E3682404D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

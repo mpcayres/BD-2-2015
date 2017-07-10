@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="649ECA01-BD16-2707-F59C-049628A9E539" name="tb_aluno">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:16:47 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="matricula" id="7392A646-D869-FC40-38C8-9CE9600A55B9">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:19:44 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco" id="5EC2D72D-FEC0-4DD5-C03C-8D94668B23B4">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:19:44 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="4C8B2150-6317-192C-48ED-B04057B1E2DA">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:19:44 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="14BA1144-508F-D747-631E-50CD14028F97">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:19:44 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="84AB9E43-1D2C-686E-DE86-A2EE7EB4562A">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:19:44 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nascimento" id="5949EA92-332E-A892-E95F-09C08BC047AF">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:19:44 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genero" id="0E7D319C-D6F4-07DB-41EE-C6A26BDC67BB">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:29:58 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tb_escola_ID" id="EDAE10F5-A2BA-4FE1-1AC6-8A53CD365D62">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-18 14:59:09 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="860385BD-A2DE-E647-9571-A3D034DA9FAB" referredColumn="3637C759-2C98-8FC8-76CA-6C922757A606"/>
+</associations>
+</Column>
+<Column name="tb_tipo_aluno_ID" id="F1AADD84-5D1F-E551-7244-5A77C16BC649">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-18 14:59:55 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E3D7101-C30A-532D-91C4-E89B94196073" referredColumn="9AD9C724-8A92-DD79-80D3-F5C25B5FC756"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="493C01C0-8D08-CAF5-DEB7-76F2893EC517" name="tb_aluno_PK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-13 23:19:44 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7392A646-D869-FC40-38C8-9CE9600A55B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBF3264F-5A03-FF90-2E34-CB09FE22AAAE" name="tb_aluno_tb_escola_FK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-18 14:59:09 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDAE10F5-A2BA-4FE1-1AC6-8A53CD365D62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="381CEE1F-30DD-C7D2-D086-D61A8B57AAC2" name="tb_aluno_tb_tipo_aluno_FK">
+<createdBy>ingrid</createdBy>
+<createdTime>2015-11-18 14:59:55 UTC</createdTime>
+<ownerDesignName>projetoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1AADD84-5D1F-E551-7244-5A77C16BC649"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
